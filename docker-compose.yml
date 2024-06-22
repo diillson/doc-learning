@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  hugo_server:
+    image: peaceiris/hugo:v0.120.2
+#    command: server --port 13133 --verbose --bind=0.0.0.0 --buildDrafts
+    command: server -D
+    volumes:
+      - ".:/src"
+    ports:
+     - 13133:13133
+    environment:
+      - HUGO_ENV=production

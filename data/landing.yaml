@@ -1,0 +1,80 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "learning-desktop.webp"
+      mobile: "learning-mobile.webp"
+
+  titleLogo:
+    path: "images/logos"
+    filename: "learning_logo.png"
+    alt: "Learning Platform logo"
+    height: 80px
+
+  title: "Plataforma de Aprendizado"
+  subtitle: Aprenda novas habilidades de forma simples e rápida.
+
+  image:
+    path: "images"
+    filename: "learning_screenshot.png"
+    alt: "Interface da Plataforma de Aprendizado"
+    boxShadow: true
+    rounded: true
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Comece agora"
+    url: "docs/overview/"
+
+# Features Grid
+features:
+  enable: true
+  weight: 20
+
+  title: Por que utilizar nossa plataforma?
+  subtitle: Nossa plataforma oferece uma ampla gama de conteúdos educacionais para ajudar você a adquirir novas habilidades e conhecimentos de forma eficiente e acessível.
+
+  items:
+    - title: Aprendizado rápido
+      icon: speed
+      description: Conteúdos dinâmicos e interativos que facilitam o aprendizado rápido.
+
+    - title: Grande variedade de tópicos
+      icon: score
+      description: Acesse uma vasta biblioteca de cursos e materiais sobre diversos temas.
+
+    - title: Acessibilidade
+      icon: schedule
+      description: Disponível 24 horas por dia, 7 dias por semana, para que você possa aprender no seu próprio ritmo.
+
+    - title: Tecnologia moderna
+      icon: cloud
+      description: Plataforma baseada em tecnologia cloud, garantindo escalabilidade e confiabilidade.
+
+    - title: Conteúdo de qualidade
+      icon: verified
+      description: Materiais atualizados e de alta qualidade para garantir um aprendizado consistente.
+
+    - title: Navegação intuitiva
+      icon: account_tree
+      description: Interface amigável e fácil de usar, facilitando a navegação pelos conteúdos.
+
+    - title: Diversos formatos de conteúdo
+      icon: leaderboard
+      description: Cursos disponíveis em múltiplos formatos, incluindo vídeos, artigos e quizzes.
+
+    - title: Adequado a todos os níveis
+      icon: grouped_bar_chart
+      description: Conteúdos adaptados para iniciantes e profissionais, atendendo a diferentes níveis de conhecimento.
+
+    - title: Evolução contínua
+      icon: groups
+      description: Equipe dedicada a atualizar e expandir constantemente os conteúdos da plataforma para oferecer o melhor aprendizado.
+
+# Image compare
+image_compare:
+  enable: false

@@ -1,0 +1,17 @@
+// doc accent color
+:root {
+    --primary: var(--doc);
+    --primary-50: var(--doc-50);
+    --primary-100: var(--doc-100);
+    --primary-200: var(--doc-200);
+    --primary-300: var(--doc-300);
+    --primary-400: var(--doc-400);
+    --primary-800: var(--doc-800);
+
+    --primary-hsl: var(--doc-500-hsl);
+    --primary-50-hsl: var(--doc-50-hsl);
+    --primary-100-hsl: var(--doc-100-hsl);
+    --primary-200-hsl: var(--doc-200-hsl);
+    --primary-300-hsl: var(--doc-300-hsl);
+    --primary-800-hsl: var(--doc-800-hsl);
+}
