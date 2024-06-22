@@ -1,0 +1,80 @@
+name: Melhoria, nova funcionalidade ou ajustes na documentação 
+
+description: 'Sugerir uma evolução ou ajustes na documentação' 
+
+title: "Melhoria - coloque o tipo de melhoria aqui" 
+
+labels: ["customer", "inner-source"] 
+
+body: 
+
+  - type: markdown 
+
+    attributes: 
+
+      value: | 
+
+        Agradecemos sua sugestão de melhoria
+
+  - type: textarea 
+
+    id: description 
+
+    attributes: 
+
+      label: "Descrição" 
+
+      placeholder: | 
+        Nos diga qual a sugestão e o porque ela é necessária. 
+
+         1. O que eu sugiro é.... 
+
+         2. Porque (o que te motivou)... 
+
+         3. Atualmente, eu resolvo (nos diga como atende à necessidade hoje)... 
+
+    validations: 
+
+      required: true 
+
+  - type: textarea 
+
+    id: resultado 
+
+    attributes: 
+
+      label: "Benefícios esperados" 
+
+      placeholder: Quais benefícios você enxerga que esta sugestão trará?
+
+    validations: 
+
+      required: true 
+      
+  - type: textarea 
+
+    id: links 
+
+    attributes: 
+
+      label: "Links e informações adicionais" 
+
+      placeholder: "Adicione links e informações (ex: prints / códigos...) que irão auxiliar na compreensão da sua sugestão." 
+
+    validations: 
+
+      required: false 
+      
+  - type: input 
+
+    id: contato 
+
+    attributes: 
+
+      label: "Contato:" 
+
+      placeholder: E-mail.
+
+    validations: 
+
+      required: true 

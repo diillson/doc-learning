@@ -1,0 +1,25 @@
+# Hugo
+/public
+/resources/_gen/
+hugo_stats.json
+.hugo_build.lock
+
+# generic
+.DS_Store
+notes*
+
+# node
+**/node_modules/
+
+# Visual Studio Code
+.vscode/
+**/jsconfig.json
+
+# Legado GitLab
+.gitlab-ci.yml
+
+### IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr

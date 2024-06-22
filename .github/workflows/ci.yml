@@ -1,0 +1,107 @@
+name: Deploy docs
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PUBLIC_URL: https://learn.edilsonfreitas.com
+  HUGO_VERSION: 0.120.2
+  GOLANG_VERSION: '^1.21.4'
+  AWS_ACCOUNT: '949802650756'
+  AWS_REGION: us-east-1
+  AWS_ROLE_NAME: oidc-repo-doc-learning
+  AWS_S3_BUCKET_NAME: github-pages-doc-learning
+  BRANCH_NAME: ${{ github.ref_name }}
+
+jobs:
+  CI_CD:
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref_name == 'main' && 'Public URL' || 'Private URL' }}
+      url: ${{ github.ref_name == 'main' && env.PUBLIC_URL || steps.deployment_github_pages.outputs.page_url }}
+    steps:
+      - name: Get Environments
+        id: get_environments
+        run: |
+          echo "BRANCH > ${BRANCH_NAME}"
+          
+          if [ "${BRANCH_NAME}" == "develop" ]; then
+            echo "ENVIRONMENT=development" >> $GITHUB_OUTPUT
+          elif [ "${BRANCH_NAME}" == "main" ]; then
+            echo "ENVIRONMENT=production" >> $GITHUB_OUTPUT
+          else
+            echo "Only branches develop and main allowed!"
+            exit 1
+          fi
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Setup Golang
+        uses: actions/setup-go@v4
+        with:
+          go-version: ${{ env.GOLANG_VERSION }}
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Install Node.js Dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Build Docs (Public)
+        if: ${{ env.BRANCH_NAME == 'main' }}
+        env:
+          BASE_URL: ${{ env.PUBLIC_URL }}
+          HUGO_ENV: ${{ steps.get_environments.outputs.ENVIRONMENT }}
+          HUGO_ENVIRONMENT: ${{ steps.get_environments.outputs.ENVIRONMENT }}
+        run: |
+          rm -rf ./public/*
+          hugo --baseURL ${{ env.BASE_URL }}
+
+      - name: Assume Role
+        id: assume_role
+        if: ${{ env.BRANCH_NAME == 'main' }}
+        continue-on-error: false
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT }}:role/${{ env.AWS_ROLE_NAME }}
+          aws-region: ${{ env.AWS_REGION }}
+          role-session-name: githbconect
+
+      - name: Publish Public Docs
+        if: ${{ env.BRANCH_NAME == 'main' && steps.assume_role.outcome == 'success' }}
+        id: publish_info
+        env:
+          PUBLISH_PATH: "s3://${{ env.AWS_S3_BUCKET_NAME }}"
+        run: |
+          echo $(pwd)
+          cd public     
+          aws s3 cp . ${{ env.PUBLISH_PATH }} --recursive
+          aws s3 sync . ${{ env.PUBLISH_PATH }} --delete
+          aws s3 ls ${{ env.PUBLISH_PATH }}
+          cd ..
+          aws cloudfront create-invalidation --distribution-id E2N8JMW1UJX1KU --paths "/*"
