@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Aprendendo e progredindo juntos.</title>
-    <link>https://learn.edilsonfreitas.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Aprendendo e progredindo juntos.</description>
     <image>
       <title>Aprendendo e progredindo juntos.</title>
-      <url>https://learn.edilsonfreitas.com/images/papermod-cover.png</url>
-      <link>https://learn.edilsonfreitas.com/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Edilson Freitas</copyright>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://learn.edilsonfreitas.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

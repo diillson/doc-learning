@@ -8,7 +8,7 @@ aliases: ["/aws-30dias"]
 tags: ["aws30dias", "aws", "cloud"]
 author: ["Edilson Freitas"]
 cover:
-  image: images/aws.webp
+  image: images/aws.png
   hiddenInList: true
 ---
 
