@@ -23,8 +23,8 @@ defaults:
 
 env:
   PUBLIC_URL: https://learn.edilsonfreitas.com
-  HUGO_VERSION: 0.120.2
-  GOLANG_VERSION: '^1.21.4'
+  HUGO_VERSION: 0.129.0
+  GOLANG_VERSION: '^1.22.5'
   AWS_ACCOUNT: '949802650756'
   AWS_REGION: us-east-1
   AWS_ROLE_NAME: oidc-repo-doc-learning
