@@ -72,15 +72,15 @@ jobs:
       - name: Install Node.js Dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build Docs (Public)
-        if: ${{ env.BRANCH_NAME == 'main' }}
-        env:
-          BASE_URL: ${{ env.PUBLIC_URL }}
-          HUGO_ENV: ${{ steps.get_environments.outputs.ENVIRONMENT }}
-          HUGO_ENVIRONMENT: ${{ steps.get_environments.outputs.ENVIRONMENT }}
-        run: |
-          rm -rf ./public/*
-          hugo --baseURL ${{ env.BASE_URL }}
+#      - name: Build Docs (Public)
+#        if: ${{ env.BRANCH_NAME == 'main' }}
+#        env:
+#          BASE_URL: ${{ env.PUBLIC_URL }}
+#          HUGO_ENV: ${{ steps.get_environments.outputs.ENVIRONMENT }}
+#          HUGO_ENVIRONMENT: ${{ steps.get_environments.outputs.ENVIRONMENT }}
+#        run: |
+#          rm -rf ./public/*
+#          hugo --baseURL ${{ env.BASE_URL }}
 
       - name: Assume Role
         id: assume_role
