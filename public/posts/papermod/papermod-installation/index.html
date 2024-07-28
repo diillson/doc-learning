@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="pt" dir="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/papermod/papermod-installation/">
+<link rel="alternate" hreflang="pt" href="http://localhost:1313/posts/papermod/papermod-installation/">
 <noscript>
     <style>
         #theme-toggle,
@@ -112,7 +112,7 @@
   ],
   "articleBody": " We’ll be using yml/yaml format for all examples down below, it is recommend to use yaml over toml as it is easier to read. You can find any YML to TOML converters if needed. Getting Started 🚀 Follow Hugo Docs’s - Quick Start guide to install . (Make sure you install Hugo \u003e= v0.112.4)\nCreate a new site\nhugo new site MyFreshWebsite --format yaml # replace MyFreshWebsite with name of your website Note:\nOlder versions of Hugo may not support --format yaml Read more here about Hugo Docs’s - hugo new site command After you have created a new site, follow the below steps to add PaperMod\nInstalling/Updating PaperMod Themes reside in MyFreshWebsite/themes directory. PaperMod will be installed in MyFreshWebsite/themes/PaperMod Expand Method 1 - Git Clone INSTALL : Inside the folder of your Hugo site MyFreshWebsite, run:\ngit clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 You may use --branch v7.0 to end of above command if you want to stick to specific release.\nUPDATE: Inside the folder of your Hugo site MyFreshWebsite, run:\ncd themes/PaperMod git pull Expand Method 2 - Git Submodule (recomended) INSTALL : Inside the folder of your Hugo site MyFreshWebsite, run:\ngit submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) You may use --branch v7.0 to end of above command if you want to stick to specific release. Read more about git submodules here.\nUPDATE: Inside the folder of your Hugo site MyFreshWebsite, run:\ngit submodule update --remote --merge Expand Method 3 - Download an unzip Download PaperMod source as Zip from Github Releases and extract in your themes directory at MyFreshWebsite/themes/PaperMod\nDirect Links:\nMaster Branch (Latest) v7.0 v6.0 v5.0 v4.0 v3.0 v2.0 v1.0 Expand Method 4 - Hugo module INSTALL :\nInstall Go programming language in your operating system.\nIntialize your own hugo mod\nhugo mod init YOUR_OWN_GIT_REPOSITORY Add PaperMod in your config.yml file 1 2 3 module: imports: - path: github.com/adityatelange/hugo-PaperMod UPDATE:\nhugo mod get -u Read more : Hugo Docs’s - HUGO MODULES\nFinally set theme as PaperMod in your site config In config.yml add:\n1 theme: [\"PaperMod\"] Next up - Customizing PaperMod to suit your preferences. Your site will be blank after you set up for the very first time. You may go through this website’s source code - PaperMod’s exampleSite’s source Scroll below this page where you will find more specific details about each section. Kindly go through all of the pages below to know how to configure PaperMod. Support 🫶 Star 🌟 PaperMod’s Github repository. Help spread the word about PaperMod by sharing it on social media and recommending it to your friends. 🗣️ You can also sponsor 🏅 on Github Sponsors / Ko-Fi. Videos featuring PaperMod You can go through few videos which are available on YouTube for getting to know the creator’s thoughts as well as the setup process.\n▶️ https://youtube.com/playlist?list=PLeiDFxcsdhUrzkK5Jg9IZyiTsIMvXxKZP\nQuick Links Papermod - Features Papermod - FAQs Papermod - Variables Papermod - Icons ChangeLog Sample config.yml Example Site Structure is present here: exampleSite\nUse appropriately\nbaseURL: \"https://examplesite.com/\" title: ExampleSite paginate: 5 theme: PaperMod enableRobotsTXT: true buildDrafts: false buildFuture: false buildExpired: false googleAnalytics: UA-123-45 minify: disableXML: true minifyOutput: true params: env: production # to enable google analytics, opengraph, twitter-cards and schema. title: ExampleSite description: \"ExampleSite description\" keywords: [Blog, Portfolio, PaperMod] author: Me # author: [\"Me\", \"You\"] # multiple authors images: [\"\"] DateFormat: \"January 2, 2006\" defaultTheme: auto # dark, light disableThemeToggle: false ShowReadingTime: true ShowShareButtons: true ShowPostNavLinks: true ShowBreadCrumbs: true ShowCodeCopyButtons: false ShowWordCount: true ShowRssButtonInSectionTermList: true UseHugoToc: true disableSpecial1stPost: false disableScrollToTop: false comments: false hidemeta: false hideSummary: false showtoc: false tocopen: false assets: # disableHLJS: true # to disable highlight.js # disableFingerprinting: true favicon: \"\" favicon16x16: \"\" favicon32x32: \"\" apple_touch_icon: \"\" safari_pinned_tab: \"\" label: text: \"Home\" icon: /apple-touch-icon.png iconHeight: 35 # profile-mode profileMode: enabled: false # needs to be explicitly set title: ExampleSite subtitle: \"This is subtitle\" imageUrl: \"\" imageWidth: 120 imageHeight: 120 imageTitle: my image buttons: - name: Posts url: posts - name: Tags url: tags # home-info mode homeInfoParams: Title: \"Hi there \\U0001F44B\" Content: Welcome to my blog socialIcons: - name: x url: \"https://x.com/\" - name: stackoverflow url: \"https://stackoverflow.com\" - name: github url: \"https://github.com/\" analytics: google: SiteVerificationTag: \"XYZabc\" bing: SiteVerificationTag: \"XYZabc\" yandex: SiteVerificationTag: \"XYZabc\" cover: hidden: true # hide everywhere but not in structured data hiddenInList: true # hide on list pages and home hiddenInSingle: true # hide on single page editPost: URL: \"https://github.com//content\" Text: \"Suggest Changes\" # edit text appendFilePath: true # to append file path to Edit link # for search # https://fusejs.io/api/options.html fuseOpts: isCaseSensitive: false shouldSort: true location: 0 distance: 1000 threshold: 0.4 minMatchCharLength: 0 limit: 10 # refer: https://www.fusejs.io/api/methods.html#search keys: [\"title\", \"permalink\", \"summary\", \"content\"] menu: main: - identifier: categories name: categories url: /categories/ weight: 10 - identifier: tags name: tags url: /tags/ weight: 20 - identifier: example name: example.org url: https://example.org weight: 30 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma pygmentsUseClasses: true markup: highlight: noClasses: false # anchorLineNos: true # codeFences: true # guessSyntax: true # lineNos: true # style: monokai Sample Page.md --- title: \"My 1st post\" date: 2020-09-15T11:30:03+00:00 # weight: 1 # aliases: [\"/first\"] tags: [\"first\"] author: \"Me\" # author: [\"Me\", \"You\"] # multiple authors showToc: true TocOpen: false draft: false hidemeta: false comments: false description: \"Desc Text.\" canonicalURL: \"https://canonical.url/to/page\" disableHLJS: true # to disable highlightjs disableShare: false disableHLJS: false hideSummary: false searchHidden: true ShowReadingTime: true ShowBreadCrumbs: true ShowPostNavLinks: true ShowWordCount: true ShowRssButtonInSectionTermList: true UseHugoToc: true cover: image: \"\" # image path/url alt: \"\" # alt text caption: \"\" # display caption under cover relative: false # when using page bundles set this to true hidden: true # only hide on current single page editPost: URL: \"https://github.com//content\" Text: \"Suggest Changes\" # edit text appendFilePath: true # to append file path to Edit link --- You can use it by creating archetypes/post.md\nhugo new --kind post ",
   "wordCount" : "1000",
-  "inLanguage": "en",
+  "inLanguage": "pt",
   "image":"http://localhost:1313/images/papermod-cover.png","datePublished": "2021-01-20T00:00:00Z",
   "dateModified": "2021-01-20T00:00:00Z",
   "author":[{
@@ -208,11 +208,11 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/papermod/">PaperMod</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Início</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/papermod/">PaperMod</a></div>
     <h1 class="post-title entry-hint-parent">
       Install / Update PaperMod
     </h1>
-    <div class="post-meta"><span title='2021-01-20 00:00:00 +0000 UTC'>January 20, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Aditya Telange&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/Posts/papermod/papermod-installation.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2021-01-20 00:00:00 +0000 UTC'>janeiro 20, 2021</span>&nbsp;·&nbsp;5 minutos&nbsp;·&nbsp;Aditya Telange&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/Posts/papermod/papermod-installation.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
@@ -224,7 +224,7 @@
 </figure><div class="toc">
     <details >
         <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
+            <span class="details">Conteúdo</span>
         </summary>
 
         <div class="inner"><ul>
@@ -636,12 +636,12 @@ Read more about git submodules <a href="https://www.atlassian.com/git/tutorials/
     </ul>
 <nav class="paginav">
   <a class="prev" href="http://localhost:1313/posts/aws-cloud-30dias/aws-em-30dias/">
-    <span class="title">« Prev</span>
+    <span class="title">« Página Anterior</span>
     <br>
     <span>Jornada de 30 Dias Cloud AWS</span>
   </a>
   <a class="next" href="http://localhost:1313/posts/papermod/papermod-features/">
-    <span class="title">Next »</span>
+    <span class="title">Próxima Página »</span>
     <br>
     <span>Features / Mods</span>
   </a>
@@ -794,12 +794,12 @@ Read more about git submodules <a href="https://www.atlassian.com/git/tutorials/
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = 'copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

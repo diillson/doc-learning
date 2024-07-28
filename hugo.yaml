@@ -18,12 +18,34 @@ minify:
   disableXML: true
   # minifyOutput: true
 
+defaultContentLanguage: pt
+
 languages:
-  en:
-    languageName: "English"
+#  en:
+#    languageName: "English"
+#    weight: 1
+#    taxonomies:
+#      category: categories
+#      tag: tags
+#      series: series
+#    menu:
+#      main:
+#        - name: Arquivo
+#          url: archives
+#          weight: 5
+#        - name: Pesquisa
+#          url: search/
+#          weight: 10
+#        - name: Tags
+#          url: tags/
+#          weight: 10
+#        - name: Meu website
+#          url: https://www.edilsonfreitas.com/
+  pt:
+    languageName: "Português"
     weight: 1
     taxonomies:
-      category: categories
+      category: categorias
       tag: tags
       series: series
     menu:

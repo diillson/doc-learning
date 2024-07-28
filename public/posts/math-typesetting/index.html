@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="pt" dir="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/math-typesetting/">
+<link rel="alternate" hreflang="pt" href="http://localhost:1313/posts/math-typesetting/">
 <noscript>
     <style>
         #theme-toggle,
@@ -106,7 +106,7 @@
   ],
   "articleBody": "Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.\nIn this example we will be using KaTeX\nCreate a partial under /layouts/partials/math.html Within this partial reference the Auto-render Extension or host these scripts locally. Include the partial in your templates (extend_head.html) like so: refer ISSUE #236 {{ if or .Params.math .Site.Params.math }} {{ partial \"math.html\" . }} {{ end }} To enable KaTex globally set the parameter math to true in a project’s configuration To enable KaTex on a per page basis include the parameter math: true in content files Note: Use the online reference of Supported TeX Functions\nExamples Inline math: \\(\\varphi = \\dfrac{1+\\sqrt5}{2}= 1.6180339887…\\) Block math:\n$$ \\varphi = 1+\\frac{1} {1+\\frac{1} {1+\\frac{1} {1+\\cdots} } } $$\n",
   "wordCount" : "124",
-  "inLanguage": "en",
+  "inLanguage": "pt",
   "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "2019-03-08T00:00:00Z",
   "dateModified": "2019-03-08T00:00:00Z",
   "author":{
@@ -209,13 +209,13 @@
     <div class="post-description">
       A brief guide to setup KaTeX
     </div>
-    <div class="post-meta"><span title='2019-03-08 00:00:00 +0000 UTC'>March 8, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo Authors&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/Posts/math-typesetting.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2019-03-08 00:00:00 +0000 UTC'>março 8, 2019</span>&nbsp;·&nbsp;1 minuto&nbsp;·&nbsp;Hugo Authors&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/Posts/math-typesetting.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> <div class="toc">
     <details >
         <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
+            <span class="details">Conteúdo</span>
         </summary>
 
         <div class="inner"><ul>
@@ -271,12 +271,12 @@ $$</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="http://localhost:1313/posts/rich-content/">
-    <span class="title">« Prev</span>
+    <span class="title">« Página Anterior</span>
     <br>
     <span>Rich Content and Shortcodes</span>
   </a>
   <a class="next" href="http://localhost:1313/posts/emoji-support/">
-    <span class="title">Next »</span>
+    <span class="title">Próxima Página »</span>
     <br>
     <span>Emoji Support</span>
   </a>
@@ -429,12 +429,12 @@ $$</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = 'copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

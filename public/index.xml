@@ -10,7 +10,7 @@
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
-    <language>en</language>
+    <language>pt</language>
     <copyright>Edilson Freitas</copyright>
     <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -20,69 +20,6 @@
       <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/aws-cloud-30dias/aws-em-30dias/</guid>
       <description>Um conteúdo abrangente de 30 dias para aprender sobre os serviços da AWS, começando pelos conceitos básicos e avançando para tópicos mais complexos.</description>
-    </item>
-    <item>
-      <title>Install / Update PaperMod</title>
-      <link>http://localhost:1313/posts/papermod/papermod-installation/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/papermod-installation/</guid>
-      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
-    </item>
-    <item>
-      <title>Features / Mods</title>
-      <link>http://localhost:1313/posts/papermod/papermod-features/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/papermod-features/</guid>
-      <description>Learn About All Features in PaperMod</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide For L2</title>
-      <link>http://localhost:1313/posts/markdown-syntax.fr/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax.fr/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide For RTL</title>
-      <link>http://localhost:1313/posts/markdown-syntax.fa/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax.fa/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Code Syntax Guide</title>
-      <link>http://localhost:1313/posts/code_syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/code_syntax/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Rich Content and Shortcodes</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
     </item>
   </channel>
 </rss>
