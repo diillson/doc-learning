@@ -1,6 +1,6 @@
 ---
 title: "Dia 1: Introdução à AWS"
-date: 2024-07-27
+date: 2024-07-28
 tags: ["AWS", "Cloud Computing", "Introdução", "aws30dias", "cloud", "DevOps", "Treinamento"]
 description: "Inicie sua jornada de 30 dias na AWS, entendendo a importância da AWS na computação em nuvem, conhecendo seus principais serviços e inscrevendo-se no AWS Free Tier."
 series: ["aws em 30 dias"]
