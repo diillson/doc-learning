@@ -5,7 +5,7 @@ description: "Um conteúdo abrangente de 30 dias para aprender sobre os serviço
 series: ["aws em 30 dias"]
 weight: 1
 aliases: ["/aws-30dias"]
-tags: ["aws30dias", "aws", "cloud"]
+tags: ["aws30dias", "aws", "cloud", "DevOps", "Treinamento"]
 author: ["Edilson Freitas"]
 cover:
   image: images/aws.png
