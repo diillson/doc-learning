@@ -107,4 +107,3 @@ Depois de se inscrever no AWS Free Tier, você terá acesso a uma ampla gama de 
 Parabéns por dar o primeiro passo rumo ao domínio da AWS! Hoje, estabelecemos as bases entendendo os conceitos principais da AWS, explorando sua infraestrutura global e iniciando sua jornada com o AWS Free Tier. Fique ligado para a aventura de amanhã, onde vamos nos aprofundar nos serviços da AWS e em implementações práticas.
 
 ### Junte-se a nós amanhã para o Dia 2: Explorando o Console de Gerenciamento da AWS! Até lá, feliz computação em nuvem! ☁️💻
-```
