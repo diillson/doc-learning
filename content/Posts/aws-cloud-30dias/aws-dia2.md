@@ -1,6 +1,6 @@
 ---
 title: "Dia 2: Console de Gerenciamento da AWS"
-date: 2024-07-27
+date: 2024-07-30
 tags: ["AWS", "Cloud Computing", "Console de Gerenciamento", "IAM", "Devops", "Treinamento"]
 description: "Explore o Console de Gerenciamento da AWS, dominando a navegação, o IAM e os serviços da AWS. Entenda como utilizar essas ferramentas para otimizar segurança e controle de acesso."
 series: ["aws em 30 dias"]

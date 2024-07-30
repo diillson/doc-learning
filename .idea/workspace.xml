@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="Update tags in post aws 30 days.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="Update tags in post aws 30 days." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +249,7 @@
       <workItem from="1719089346666" duration="946000" />
       <workItem from="1722125198710" duration="13533000" />
       <workItem from="1722339889644" duration="797000" />
-      <workItem from="1722340720394" duration="59000" />
+      <workItem from="1722340720394" duration="839000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -501,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722340758954</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update tags in post aws 30 days.">
+      <option name="closed" value="true" />
+      <created>1722340918127</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722340918127</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
