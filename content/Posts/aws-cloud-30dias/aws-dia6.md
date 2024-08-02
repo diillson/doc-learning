@@ -1,6 +1,6 @@
 ---
 title: "Dia 6: RDS (Relational Database Service)"
-date: 2024-08-03
+date: 2024-08-02T08:30:00-03:00
 tags: ["AWS", "RDS", "Cloud Computing", "Database", "Treinamento"]
 description: "Explore o Amazon RDS, entenda suas funcionalidades, como iniciar e configurar instâncias RDS e conectá-las a instâncias EC2."
 series: ["aws em 30 dias"]
