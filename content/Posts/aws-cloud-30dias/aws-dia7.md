@@ -1,6 +1,6 @@
 ---
 title: "Dia 7: VPC (Virtual Private Cloud)"
-date: 2024-02-28
+date: 2024-02-04
 description: "Exprore o VPC (Virtual Private Cloud), um componente fundamental da infraestrutura da Amazon Web Services. Descubra como criar VPCs personalizados, configurar tabelas de roteamento e conectar redes usando peering e VPN."
 tags: ["AWS", "VPC", "Cloud", "Networking"]
 series: ["aws em 30 dias"]
