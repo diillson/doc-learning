@@ -8,8 +8,8 @@ weight: 1
 aliases: ["/aws-dia6"]
 author: ["Edilson Freitas"]
 cover:
-   image: images/rds.jpeg
-   hiddenInList: true
+  image: images/rds.jpeg
+  hiddenInList: true
 ---
 
 ## Bem-vindo ao Dia 6 da nossa jornada de 30 dias pela AWS!
