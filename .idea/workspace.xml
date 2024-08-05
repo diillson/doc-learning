@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up day 4 aws 30 days." />
+    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up day 5,6,7 aws 30 days.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,6 +256,8 @@
       <workItem from="1722421419994" duration="884000" />
       <workItem from="1722422347198" duration="651000" />
       <workItem from="1722515201504" duration="1144000" />
+      <workItem from="1722593883061" duration="5003000" />
+      <workItem from="1722608339649" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -543,7 +547,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722515669514</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="up day 5,6,7 aws 30 days.">
+      <option name="closed" value="true" />
+      <created>1722596756080</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1722596756080</updated>
+    </task>
+    <task id="LOCAL-00038" summary="up day 5,6,7 aws 30 days.">
+      <option name="closed" value="true" />
+      <created>1722597880336</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1722597880336</updated>
+    </task>
+    <task id="LOCAL-00039" summary="up day 5,6,7 aws 30 days.">
+      <option name="closed" value="true" />
+      <created>1722598075839</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1722598075839</updated>
+    </task>
+    <task id="LOCAL-00040" summary="up day 5,6,7 aws 30 days.">
+      <option name="closed" value="true" />
+      <created>1722598262346</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1722598262346</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,6 +594,7 @@
     <MESSAGE value="Update tags in post aws 30 days." />
     <MESSAGE value="up day 3 aws 30 days." />
     <MESSAGE value="up day 4 aws 30 days." />
-    <option name="LAST_COMMIT_MESSAGE" value="up day 4 aws 30 days." />
+    <MESSAGE value="up day 5,6,7 aws 30 days." />
+    <option name="LAST_COMMIT_MESSAGE" value="up day 5,6,7 aws 30 days." />
   </component>
 </project>
