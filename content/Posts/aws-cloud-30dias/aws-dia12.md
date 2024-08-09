@@ -1,6 +1,6 @@
 ---
 title: "Dia 12: SNS (Simple Notification Service) e SQS (Simple Queue Service)"
-date: "2024-08-09"
+date: "2024-08-09T08:00:00-03:00"
 tags: ["AWS", "SNS", "SQS", "Messaging Services", "Pub/Sub", "Message Queues", "DevOps", "Cloud Computing", "Treinamento", "30 Days of AWS"]
 categories: ["Cloud"]
 series: ["aws em 30 dias"]
