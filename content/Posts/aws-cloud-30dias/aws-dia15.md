@@ -173,12 +173,12 @@ Isso envolve várias tarefas para garantir a operação suave e a utilização e
 
 ### Perguntas de Entrevista Baseadas em Cenários:
 
-    - Você percebe que a utilização de CPU do cluster ECS está consistentemente alta durante as horas de pico. Como você abordaria esse problema?
-    - Uma nova aplicação requer configurações de hardware especializadas que não estão disponíveis no cluster ECS existente. Como você lidaria com essa situação?
-    - Você precisa garantir que tarefas críticas estejam sempre em execução no cluster ECS, mesmo em caso de falhas de instância. Como você alcançaria alta disponibilidade para essas tarefas?
-    - Você tem um trabalho de processamento em lote que precisa ser executado em um horário específico todos os dias. Como você agendaria essa tarefa no ECS?
-    - Sua equipe está implantando uma nova versão de um microsserviço no cluster ECS. Como você realizaria uma atualização incremental para minimizar o tempo de inatividade?
-    - Você precisa implementar descoberta de serviços para um conjunto de microsserviços em execução no cluster ECS. Como você abordaria essa tarefa?
+1. Você percebe que a utilização de CPU do cluster ECS está consistentemente alta durante as horas de pico. Como você abordaria esse problema?
+2. Uma nova aplicação requer configurações de hardware especializadas que não estão disponíveis no cluster ECS existente. Como você lidaria com essa situação?
+3. Você precisa garantir que tarefas críticas estejam sempre em execução no cluster ECS, mesmo em caso de falhas de instância. Como você alcançaria alta disponibilidade para essas tarefas?
+4. Você tem um trabalho de processamento em lote que precisa ser executado em um horário específico todos os dias. Como você agendaria essa tarefa no ECS?
+5. Sua equipe está implantando uma nova versão de um microsserviço no cluster ECS. Como você realizaria uma atualização incremental para minimizar o tempo de inatividade?
+6. Você precisa implementar descoberta de serviços para um conjunto de microsserviços em execução no cluster ECS. Como você abordaria essa tarefa?
 
 ### Conclusão:
 

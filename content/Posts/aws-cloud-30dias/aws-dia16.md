@@ -213,13 +213,12 @@ Isso envolve aproveitar os recursos poderosos do Kubernetes para implantação, 
 
 ### Perguntas de Entrevista Baseadas em Cenários:
 
-    - Você tem uma aplicação baseada em microsserviços composta por vários containers Docker que precisam ser implantados em um cluster EKS. Como você abordaria a implantação e o gerenciamento desses containers de forma eficaz?
-    - Sua aplicação está experimentando aumento de tráfego, e você precisa escalar dinamicamente o número de pods com base na utilização de CPU. Como você implementaria a escalabilidade automática para sua aplicação implantada no EKS?
-    - Seu cluster EKS está enfrentando restrições de recursos devido ao aumento das demandas de carga de trabalho. Como você escalaria a infraestrutura subjacente para acomodar o número crescente de pods?
-    - Sua aplicação requer configurações de hardware especializadas, e você precisa escalar os pods individualmente com base nos padrões de uso de recursos. Como você implementaria a escalabilidade vertical para sua aplicação no EKS?
-    - Você precisa monitorar o desempenho e a saúde do seu cluster EKS e das aplicações containerizadas em execução nele. Como você configuraria o monitoramento e o log para sua infraestrutura EKS?
-    - Sua equipe está implantando um novo microsserviço no cluster EKS, e você precisa garantir que o serviço seja altamente disponível e tolerante a falhas. Como você desenharia a arquitetura de implantação para atender a esses requisitos?
-    - A carga de trabalho da sua aplicação exibe picos periódicos de tráfego, exigindo escalabilidade dinâmica dos recursos para lidar com a demanda aumentada. Como você implementaria estratégias proativas de escalabilidade para antecipar e responder eficazmente às flutuações de tráfego?
-    - Sua equipe precisa garantir conformidade com requisitos regulatórios mantendo logs de auditoria abrangentes para todas as ações realizadas no cluster EKS. Como você implementaria mecanismos de auditoria e log para atender a esses requisitos de conformidade?
+1. Você tem uma aplicação baseada em microsserviços composta por vários containers Docker que precisam ser implantados em um cluster EKS. Como você abordaria a implantação e o gerenciamento desses containers de forma eficaz?
+3. Seu cluster EKS está enfrentando restrições de recursos devido ao aumento das demandas de carga de trabalho. Como você escalaria a infraestrutura subjacente para acomodar o número crescente de pods?
+4. Sua aplicação requer configurações de hardware especializadas, e você precisa escalar os pods individualmente com base nos padrões de uso de recursos. Como você implementaria a escalabilidade vertical para sua aplicação no EKS?
+5. Você precisa monitorar o desempenho e a saúde do seu cluster EKS e das aplicações containerizadas em execução nele. Como você configuraria o monitoramento e o log para sua infraestrutura EKS?
+6. Sua equipe está implantando um novo microsserviço no cluster EKS, e você precisa garantir que o serviço seja altamente disponível e tolerante a falhas. Como você desenharia a arquitetura de implantação para atender a esses requisitos?
+7. A carga de trabalho da sua aplicação exibe picos periódicos de tráfego, exigindo escalabilidade dinâmica dos recursos para lidar com a demanda aumentada. Como você implementaria estratégias proativas de escalabilidade para antecipar e responder eficazmente às flutuações de tráfego?
+8. Sua equipe precisa garantir conformidade com requisitos regulatórios mantendo logs de auditoria abrangentes para todas as ações realizadas no cluster EKS. Como você implementaria mecanismos de auditoria e log para atender a esses requisitos de conformidade?
 
 Isso conclui o Dia 16 da nossa jornada pelo curso da AWS, onde exploramos o Elastic Kubernetes Service (EKS) e suas capacidades na implantação, gerenciamento e escalabilidade de aplicações containerizadas. Fique atento para mais conteúdo empolgante nos próximos dias!
