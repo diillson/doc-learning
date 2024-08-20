@@ -2,7 +2,7 @@ name: Lançamento 8h da manhã.
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 11 * * *'
 
 permissions:
   contents: read
@@ -35,7 +35,6 @@ jobs:
     environment:
       name: ${{ github.ref_name == 'main' && 'Public URL' || 'Private URL' }}
       url: ${{ github.ref_name == 'main' && env.PUBLIC_URL || steps.deployment_github_pages.outputs.page_url }}
-      TZ: America/Sao_Paulo
     steps:
       - name: Get Environments
         id: get_environments

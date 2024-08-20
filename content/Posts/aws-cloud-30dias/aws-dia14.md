@@ -1,6 +1,6 @@
 ---
 title: "Dia 14: CloudFront"
-date: "2024-08-09"
+date: "2024-08-09T08:30:00-03:00"
 description: "Explorando o Amazon CloudFront, uma poderosa ferramenta de entrega de conteúdo."
 categories: ["Cloud"]
 tags: ["Cloudfront", "CDN", "S3", "EC2"]

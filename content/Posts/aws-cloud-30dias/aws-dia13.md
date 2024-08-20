@@ -1,6 +1,6 @@
 ---
 title: "Dia 13: CloudWatch"
-date: "2024-08-09"
+date: "2024-08-09T08:10:00-03:00"
 description: "Explorando as capacidades abrangentes de monitoramento e registro do AWS CloudWatch."
 categories: ["Cloud"]
 tags: ["CloudWatch", "AWS", "Monitoramento", "Registro", "Métricas", "Alarmes", "Logs"]
