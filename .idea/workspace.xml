@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up aws 30 days.">
+    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up workflow lançamento de conteudo as 8h AM.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,6 +260,8 @@
       <workItem from="1722608339649" duration="4000" />
       <workItem from="1722858966214" duration="3947000" />
       <workItem from="1722894746092" duration="18000" />
+      <workItem from="1722894805443" duration="1571000" />
+      <workItem from="1722965933016" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -597,7 +599,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722862865149</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="up workflow lançamento de conteudo as 8h AM.">
+      <option name="closed" value="true" />
+      <created>1722895258880</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1722895258880</updated>
+    </task>
+    <task id="LOCAL-00044" summary="up workflow lançamento de conteudo as 8h AM.">
+      <option name="closed" value="true" />
+      <created>1722896323621</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722896323621</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,6 +633,7 @@
     <MESSAGE value="up day 5,6,7 aws 30 days." />
     <MESSAGE value="up day 8 aws 30 days." />
     <MESSAGE value="up aws 30 days." />
-    <option name="LAST_COMMIT_MESSAGE" value="up aws 30 days." />
+    <MESSAGE value="up workflow lançamento de conteudo as 8h AM." />
+    <option name="LAST_COMMIT_MESSAGE" value="up workflow lançamento de conteudo as 8h AM." />
   </component>
 </project>
