@@ -3,7 +3,7 @@ title: "Dia 29: Conformidade e Governança"
 date: "2024-09-03"
 description: "Explore os aspectos críticos da conformidade e governança na AWS, incluindo padrões de conformidade, regulamentações, AWS Organizations, AWS Config, AWS Inspector e integração com serviços de segurança."
 categories: ["Cloud"]
-tags: ["AWS", "Conformidade", "Governança", "AWS Organizations]
+tags: ["AWS", "Conformidade", "Governança", "AWS Organizations", "AWS Config", "AWS Inspector"]
 series: ["aws em 30 dias"]
 weight: 1
 aliases: ["/aws-dia29"]
