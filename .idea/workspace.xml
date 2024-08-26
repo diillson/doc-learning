@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up workflow lançamento de conteudo as 8h AM.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up day 30, The End, AWS 30 Days." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +26,10 @@
     &quot;accountId&quot;: &quot;236367d7-deb9-4bd4-bffe-d2745c9c995e&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -268,6 +266,7 @@
       <workItem from="1722965933016" duration="67000" />
       <workItem from="1724164728728" duration="9000" />
       <workItem from="1724292942232" duration="1866000" />
+      <workItem from="1724637615399" duration="3959000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -637,7 +636,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724162444407</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="up days content 21 to 29.">
+      <option name="closed" value="true" />
+      <created>1724640975055</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1724640975055</updated>
+    </task>
+    <task id="LOCAL-00048" summary="up day 30, The End, AWS 30 Days.">
+      <option name="closed" value="true" />
+      <created>1724641556447</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1724641556447</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,6 +671,8 @@
     <MESSAGE value="up day 8 aws 30 days." />
     <MESSAGE value="up aws 30 days." />
     <MESSAGE value="up workflow lançamento de conteudo as 8h AM." />
-    <option name="LAST_COMMIT_MESSAGE" value="up workflow lançamento de conteudo as 8h AM." />
+    <MESSAGE value="up days content 21 to 29." />
+    <MESSAGE value="up day 30, The End, AWS 30 Days." />
+    <option name="LAST_COMMIT_MESSAGE" value="up day 30, The End, AWS 30 Days." />
   </component>
 </project>
