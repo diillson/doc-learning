@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up workflow lançamento de conteudo as 8h AM." />
+    <list default="true" id="5b8a8d32-6831-4d46-9e0e-e61206d0bfa8" name="Changes" comment="up workflow lançamento de conteudo as 8h AM.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,10 @@
     &quot;accountId&quot;: &quot;236367d7-deb9-4bd4-bffe-d2745c9c995e&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -233,8 +239,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -260,6 +266,8 @@
       <workItem from="1722894746092" duration="18000" />
       <workItem from="1722894805443" duration="1571000" />
       <workItem from="1722965933016" duration="67000" />
+      <workItem from="1724164728728" duration="9000" />
+      <workItem from="1724292942232" duration="1866000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -613,7 +621,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722896323621</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="up workflow lançamento de conteudo as 8h AM.">
+      <option name="closed" value="true" />
+      <created>1724162245796</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162245796</updated>
+    </task>
+    <task id="LOCAL-00046" summary="up workflow lançamento de conteudo as 8h AM.">
+      <option name="closed" value="true" />
+      <created>1724162444407</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162444407</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
