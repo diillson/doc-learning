@@ -9,7 +9,7 @@ weight: 1
 aliases: ["/aws-dia22"]
 author: ["Edilson Freitas"]
 cover:
-  image: images/serveless.png
+  image: images/servless.png
   hiddenInList: true
 ---
 
